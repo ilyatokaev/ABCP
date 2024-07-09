@@ -2,13 +2,9 @@
 
 namespace Models;
 
-use NW\WebService\References\Operations\Notification\Seller;
 
 class Employee implements ContractorInterface
 {
-    const TYPE_CUSTOMER = 0;
-
-    private Seller $Seller;
     private int $id;
 
     private int $type;
